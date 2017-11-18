@@ -1,18 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-class Footer extends Component {
+class Trivia extends React.Component {
   render() {
     return (
-    	<footer class="footer mdl-mini-footer">
-		  <div class="mdl-mini-footer">
-		    <div class="mdl-logo">
-			    <Link to="/About">About Simon-React-App
-			    </Link>
-		    </div>
+    	
+		  <div>
+		    <h2>Welcome to Trivia</h2>
+        <h4>brief summary of this page</h4>
+        <Link to="/">Back</Link>
 		  </div>
-		</footer>
+		
       /*<div>
     	Simon is a web developer and recent graduate of Eleven Fifty Academy. He is addicted to learning and coding, and might be addicted to coffee as well. He watches Silicon Valley, and still watches The Office. He enjoys tennis, basketball, and reading.
       </div> */
@@ -20,4 +19,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Trivia;
