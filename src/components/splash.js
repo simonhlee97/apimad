@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
 class Splash extends React.Component {
   render() {
     return(
     	<div>
     		<h1>Simon-React-App</h1>
+    		
 	    	<div class="mdl-grid">
 
 	    		<div class="mdl-cell mdl-cell--4-col">

@@ -5,19 +5,18 @@ import {Link} from 'react-router-dom';
 class Footer extends Component {
   render() {
     return (
-    	<footer class="footer mdl-mini-footer">
-		  <div class="mdl-mini-footer">
-		    <div class="mdl-logo">
-			    <Link to="/About">About Simon-React-App
-			    </Link>
-		    </div>
-		  </div>
-		</footer>
-      /*<div>
-    	Simon is a web developer and recent graduate of Eleven Fifty Academy. He is addicted to learning and coding, and might be addicted to coffee as well. He watches Silicon Valley, and still watches The Office. He enjoys tennis, basketball, and reading.
-      </div> */
+    	<footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <ul class="mdl-mini-footer__link-list">
+            <li><Link to="/About">About Simon-React-App</Link></li>
+            <li><a href="https://github.com/simonhlee97/simonreactapp">Github Repo</a></li>
+          </ul>
+        </div>
+        
+      </footer>
     );
   }
 }
 
 export default Footer;
+

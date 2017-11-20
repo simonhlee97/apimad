@@ -14,7 +14,7 @@ class Form extends React.Component {
   };
   render() {
     return(
-      <form onSubmit={this.handleSubmit}>
+      <form id="githubform" onSubmit={this.handleSubmit}>
         <div class="mdl-textfield mdl-js-textfield">
         <input type="text" class="mdl-textfield__input"
          // ref={(input) => this.userNameInput = input}

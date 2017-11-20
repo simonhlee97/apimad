@@ -8,14 +8,13 @@ class App extends Component {
     return (
       <div>
     	<Main />
-      
       	<Footer />
       </div>
     );
   }
 }
 // ES5 syntax
-// const Button = function(props) {
+// var Button = function(props) {
 //   return(
 //     <button>Go</button>
 //   );
