@@ -18,16 +18,27 @@ class Dogs extends Component {
 			this.setState({data: jsondata.message})
 		})
 	}
+
+	buttonClicked() {
+        // console.log('Button was clicked!')
+        fetch('https://dog.ceo/api/breeds/image/random')
+		.then((Response) => Response.json())
+		.then((jsondata) => {
+			this.setState({data: jsondata.message})
+		})
+
+    }
+
 	render() {
-		console.log(this.state.data)
+		// console.log(this.state.data)
 	    return (
 	    <div>
 	        <h1>Photos of Dogs!</h1>
 	        <h4>I'm fetching a random photo from the <a href="https://dog.ceo">dog.ceo</a> API</h4>
 	        <Link to="/">Back</Link>
 	        <div>
-	        	<img src={this.state.data} alt="" /><br />
-	        	<button value="Show another dog">show another dog</button>
+	        	<img src={this.state.data} alt="" /><br /><br />
+	        	<button onClick={this.buttonClicked.bind(this)} class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" value="Show another dog">see another dog</button>
 	        </div>
 	    </div>
 	    )
