@@ -12,9 +12,9 @@ const About = () => (
 		<h6>Links to the tools and libraries used to create this project:</h6>
 		<ul id="tools">
 			<li><a href="https://reactjs.org">React</a></li>
-			<li><a href="">Fetch API</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a></li>
 			<li><a href="https://www.npmjs.com/package/axios">axios</a></li>
-			<li><a href="">Material Design Lite</a></li>
+			<li><a href="https://getmdl.io">Material Design Lite</a></li>
 		</ul>
 	</div>
 );

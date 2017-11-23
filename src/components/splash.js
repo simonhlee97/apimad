@@ -52,7 +52,7 @@ class Splash extends React.Component {
 					    <h2 class="mdl-card__title-text">Dogs</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
-					    Challenge your knowledge and see if you can answer these trivia questions, pulled from opentdb.com's API.
+					    Photos of dogs!
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
 					    <Link to="/Dogs">
