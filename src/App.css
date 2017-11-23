@@ -1,15 +1,14 @@
 .demo-card-square.mdl-card {
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
-  background:
-    url('./images/logo.svg') bottom right 15% no-repeat #4942B7;
+  background: #4942B7;
 }
 
 #main{
-	max-width: 92%;
+	max-width: 95%;
 	margin: 0px auto;
 }
 
@@ -18,5 +17,9 @@
 	padding-bottom: 6em;
 }
 #trivia{
-	padding-bottom: 25em;
+	padding-bottom: 20em;
+}
+
+#tools{
+	list-style-type: none;
 }

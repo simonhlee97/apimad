@@ -6,7 +6,8 @@ class Form extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     // ajax... can use FETCH or AXIOS
-    axios.get(`https://api.github.com/users/${this.state.userName}`).then(resp => {
+    axios.get(`https://api.github.com/users/${this.state.userName}`)
+    .then(resp => {
       console.log(resp);
       this.props.onSubmit(resp.data);
       this.setState({ userName: ''});

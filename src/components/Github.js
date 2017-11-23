@@ -13,7 +13,6 @@ class Github extends Component {
 	};
 	render() {
 		return(
-
 			<div>
 				<h1>Github API Project</h1>
 				<h4>Type anyone's Github username, then click on the button. It will pull data from Github's API and create a card with that person's profile pic.</h4>

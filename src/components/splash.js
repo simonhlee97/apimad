@@ -12,10 +12,10 @@ class Splash extends React.Component {
 	    		<div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-					    <h2 class="mdl-card__title-text">Github API project</h2>
+					    <h2 class="mdl-card__title-text">Github Cards</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
-					    A small app that uses Github's API and returns a JSON file with a Github user's information.
+					    By typing in your Github username, Github's API will return data about your account.
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
 					  	<Link to="/Github">
@@ -25,11 +25,11 @@ class Splash extends React.Component {
 					    </Link>
 					  </div>
 					</div>
-				  </div>
+				</div>
 
-				  <div class="mdl-cell mdl-cell--4-col">
+				<div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
-					  <div class="mdl-card__title mdl-card--expand" id="trivia">
+					  <div class="mdl-card__title mdl-card--expand">
 					    <h2 class="mdl-card__title-text">Open Trivia DB</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
@@ -44,18 +44,18 @@ class Splash extends React.Component {
 					    
 					  </div>
 					</div>
-				  </div>
+				</div>
 
 				  <div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-					    <h2 class="mdl-card__title-text">Google Maps API</h2>
+					    <h2 class="mdl-card__title-text">Dogs</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
 					    Challenge your knowledge and see if you can answer these trivia questions, pulled from opentdb.com's API.
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
-					    <Link to="/Google">
+					    <Link to="/Dogs">
 						    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 						      see project
 						    </button>
@@ -67,13 +67,13 @@ class Splash extends React.Component {
 				  <div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-					    <h2 class="mdl-card__title-text">Star Wars API</h2>
+					    <h2 class="mdl-card__title-text">Dogs</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
 					    some text
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
-					    <Link to="/Starwars">
+					    <Link to="/Dogs">
 						    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 						      see project
 						    </button>
@@ -85,13 +85,13 @@ class Splash extends React.Component {
 				  <div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-					    <h2 class="mdl-card__title-text">Outer Space API</h2>
+					    <h2 class="mdl-card__title-text">Axios: CoinDesk</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
 						some loremipsum
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
-					    <Link to="/Space">
+					    <Link to="/CoinDesk">
 						    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 						      see project
 						    </button>
@@ -103,13 +103,13 @@ class Splash extends React.Component {
 				  <div class="mdl-cell mdl-cell--4-col">
 				  	<div class="demo-card-square mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-					    <h2 class="mdl-card__title-text">Pokémon API</h2>
+					    <h2 class="mdl-card__title-text">Giphy API</h2>
 					  </div>
 					  <div class="mdl-card__supporting-text">
-					    some loremipsum
+					    Fetch giphys!
 					  </div>
 					  <div class="mdl-card__actions mdl-card--border">
-					    <Link to="/Pokemon">
+					    <Link to="/Giphy">
 						    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 						      see project
 						    </button>
@@ -117,7 +117,6 @@ class Splash extends React.Component {
 					  </div>
 					</div>
 				  </div>
-
 				</div>
 		</div>
     )

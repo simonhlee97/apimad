@@ -5,23 +5,21 @@ import Splash from './Splash';
 import Trivia from './Trivia';
 import Github from './Github';
 import About from './About';
-import Pokemon from './Pokemon';
-import Google from './Google';
-import Space from './Space';
-import Starwars from './Starwars';
+import CoinDesk from './CoinDesk';
+import Dogs from './Dogs';
+//import Starwars from './Starwars';
 
 
 const Main = () => (
-	<main id="main">
+	<main>
 		<Switch>
     		<Route exact path='/' component={Splash} />
+            <Route exact path='/Trivia' component={Trivia} />
     		<Route exact path='/Github' component={Github} />
-    		<Route exact path='/Trivia' component={Trivia} />
     		<Route exact path='/About' component={About} />
-    		<Route exact path='/Pokemon' component={Pokemon} />
-    		<Route exact path='/Space' component={Space} />
-    		<Route exact path='/Google' component={Google} />
-            <Route exact path='/Starwars' component={Starwars} />
+    		<Route exact path='/CoinDesk' component={CoinDesk} />
+            <Route exact path='/Dogs' component={Dogs} />
+
 		</Switch>
 	</main>
 );
