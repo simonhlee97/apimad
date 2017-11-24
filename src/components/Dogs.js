@@ -16,6 +16,7 @@ class Dogs extends Component {
 		.then((Response) => Response.json())
 		.then((jsondata) => {
 			this.setState({data: jsondata.message})
+			console.log(jsondata)
 		})
 	}
 

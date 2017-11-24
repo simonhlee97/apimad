@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div>
     	<Main />
+    	<p class="space" />
       	<Footer />
       </div>
     );

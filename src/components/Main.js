@@ -7,6 +7,11 @@ import Github from './Github';
 import About from './About';
 import CoinDesk from './CoinDesk';
 import Dogs from './Dogs';
+import Swanson from './Swanson';
+
+
+
+
 //import Starwars from './Starwars';
 
 
@@ -19,6 +24,10 @@ const Main = () => (
     		<Route exact path='/About' component={About} />
     		<Route exact path='/CoinDesk' component={CoinDesk} />
             <Route exact path='/Dogs' component={Dogs} />
+            <Route exact path='/Swanson' component={Swanson} />
+
+
+
 
 		</Switch>
 	</main>
