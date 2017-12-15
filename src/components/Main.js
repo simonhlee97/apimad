@@ -10,11 +10,6 @@ import Dogs from './Dogs';
 import Swanson from './Swanson';
 
 
-
-
-//import Starwars from './Starwars';
-
-
 const Main = () => (
 	<main>
 		<Switch>
@@ -25,9 +20,6 @@ const Main = () => (
     		<Route exact path='/CoinDesk' component={CoinDesk} />
             <Route exact path='/Dogs' component={Dogs} />
             <Route exact path='/Swanson' component={Swanson} />
-
-
-
 
 		</Switch>
 	</main>

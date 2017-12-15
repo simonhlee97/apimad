@@ -4,11 +4,10 @@ import {BrowserRouter} from 'react-router-dom';
 import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(
-	<BrowserRouter>
-		<App />
-	</BrowserRouter>, 
+	<App />, 
 	document.getElementById('root')
 	);
 
